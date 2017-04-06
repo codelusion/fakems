@@ -1,0 +1,18 @@
+{
+  "name": "fakems",
+  "version": "1.0.0",
+  "description": "fakems",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.mednetstudy.com:7999/~aisaac/fakems.git"
+  },
+  "keywords": [
+    "fakems"
+  ],
+  "author": "aisaac",
+  "license": "ISC",
+  "dependencies": {
+    "restify": "^4.3.0"
+  }
+}
