@@ -2,10 +2,10 @@
 
 var restify = require('restify');
 var os = require('os');
-var serviceName = 'fakems';
+var serviceName = 'hit-counter';
 var serverName = serviceName + '-pid-' + process.pid;
 var hitCount = 0;
-var PORT = process.env.FAKEMS_PORT || 3000;
+var PORT = process.env.HITCOUNTER_PORT || 3000;
 
 function add(req, res, next) {
     hitCount++;
